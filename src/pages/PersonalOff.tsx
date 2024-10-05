@@ -1,4 +1,4 @@
-import { useAuthStore } from "@/store";
+import { useAuthStore } from "@/store/store";
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 
 export const PersonalOff = () => {

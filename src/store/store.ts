@@ -2,12 +2,10 @@ import { create } from "zustand";
 import {
   postRegisterData,
   postLoginData,
-  RegisterInputs,
-  LoginInputs,
   getUserData,
-  Usern,
   updateUserData,
 } from "./services";
+import type { RegisterInputs, LoginInputs, Usern } from "./types";
 
 interface AuthState {
   user: Usern | null;

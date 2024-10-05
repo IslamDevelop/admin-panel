@@ -1,6 +1,6 @@
 import { Sidebar } from "@/components";
 import { useNavigate, Outlet } from "react-router-dom";
-import { useAuthStore } from "@/store";
+import { useAuthStore } from "@/store/store";
 import { useEffect } from "react";
 
 export const MainLayout = () => {

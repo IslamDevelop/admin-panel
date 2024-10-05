@@ -11,6 +11,7 @@ import {
   SignIn,
   SignUp,
 } from "@/pages";
+import "./layout/MainLaout.css";
 
 function App() {
   return (

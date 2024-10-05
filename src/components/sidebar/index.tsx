@@ -1,4 +1,4 @@
-import { useAuthStore } from "@/store";
+import { useAuthStore } from "@/store/store";
 import { NavLink, useNavigate } from "react-router-dom";
 
 export const Sidebar = () => {
